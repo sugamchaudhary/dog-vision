@@ -5,3 +5,4 @@ tensorflow==2.3.0
 gputil
 tensorflow_hub
 matplotlib
+scikit-learn
