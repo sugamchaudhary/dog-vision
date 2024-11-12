@@ -6,3 +6,4 @@ gputil
 tensorflow_hub
 matplotlib
 scikit-learn
+requests
