@@ -50,19 +50,25 @@ The following files and folders are included in the project:
 
 2. **Clone the Repository**:  
    Start by cloning the repository from GitHub to your local machine. This will allow you to access the project files and begin working with them.
-   `git clone https://github.com/sugamchaudhary/dog-vision.git`
-   `cd dog-vision`
+
+   ```bash
+   git clone https://github.com/sugamchaudhary/dog-vision.git
+   cd dog-vision
 
 3. **Create a Virtual Environment**:  
    It is recommended to create a virtual environment to manage the dependencies for this project. You can use Conda to create a new environment specifically for this project. This will help to isolate your project’s dependencies from your global Python installation.
-   Create a virtual environment: `python -m venv venv`
+
+   ```bash
+   Create a virtual environment: python -m venv venv
    Activate the virtual environment
-   On Windows: `venv\Scripts\activate`
-   On macOS/Linux: `source venv/bin/activate`
+   On Windows: venv\Scripts\activate
+   On macOS/Linux: source venv/bin/activate
 
 4. **Install Required Packages**:  
    Once the virtual environment is set up and activated, you can install all the necessary libraries for the project by using the `requirements.txt` file. This file contains a list of all the dependencies required to run the project. You can install them by running the appropriate command within your virtual environment.
-   `pip install -r requirements.txt`
+
+   ```bash
+   pip install -r requirements.txt
 
 ## Prepare the Dataset
 
@@ -72,7 +78,10 @@ Ensure that the dataset is properly organized and the paths to the images are co
 
 ## Run the Streamlit App
 
-To run the Streamlit app, make sure that all dependencies are installed, and the dataset is prepared as described above. Once you have set up everything, you can launch the app by running the following command: `streamlit run app.py`.
+To run the Streamlit app, make sure that all dependencies are installed, and the dataset is prepared as described above. Once you have set up everything, you can launch the app by running the following command: 
+
+```bash
+streamlit run app.py.
 
 The app will open in your default web browser where you can interact with the dog breed classifier. It allows you to upload images of dogs and predict their breed using the trained model.
 
