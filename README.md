@@ -81,7 +81,8 @@ Ensure that the dataset is properly organized and the paths to the images are co
 To run the Streamlit app, make sure that all dependencies are installed, and the dataset is prepared as described above. Once you have set up everything, you can launch the app by running the following command: 
 
 ```bash
-streamlit run app.py.
+streamlit run app.py
+```
 
 The app will open in your default web browser where you can interact with the dog breed classifier. It allows you to upload images of dogs and predict their breed using the trained model.
 
