@@ -6,7 +6,7 @@ import tensorflow_hub as hub
 from PIL import Image
 
 # Load the model (this part stays the same as your existing code)
-model_path = r'models\20241111-114215-full-image-set-mobilenetv2-Adam.h5'  # Replace with actual model URL or path
+model_path = r'models/20241111-114215-full-image-set-mobilenetv2-Adam.h5'  # Replace with actual model URL or path
 IMG_SIZE = 224
 BATCH_SIZE = 32
 
